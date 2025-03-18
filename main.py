@@ -166,7 +166,7 @@ class MainWindow(QMainWindow):
                 sequence_text = (
                     f"Name: {name}\n"
                     f"Length: {len(sequence)} bp\n\n"
-                    f"Sequence:\n{sequence[:100]}..."
+                    f"Sequence:\n{sequence[:10000000]}..."
                 )
                 self.dna_details.setText(sequence_text)
 
